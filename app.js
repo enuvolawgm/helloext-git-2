@@ -12,6 +12,16 @@ Ext.application({
 				handler: function() {
 							alert('You clicked the button 1');
 				}
+            },{
+            	text: 'Button 2',
+				handler: function() {
+							alert('You clicked the button 2');
+				}
+            },{
+            	text: 'Button 3',
+				handler: function() {
+							alert('You clicked the button 3');
+				}
             }],
             renderTo: Ext.getBody(),
         });
