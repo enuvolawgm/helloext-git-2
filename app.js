@@ -8,9 +8,19 @@ Ext.application({
             title: 'Hello Ext',
             html : 'Hello! Welcome to Ext JS.',
             buttons:[{
-            	text: 'Click me',
+            	text: 'Button 1',
 				handler: function() {
-							alert('You clicked the button!');
+							alert('You clicked the button 1');
+				}
+            },{
+            	text: 'Button 2',
+				handler: function() {
+							alert('You clicked the button 2');
+				}
+            },{
+            	text: 'Button 3',
+				handler: function() {
+							alert('You clicked the button 3');
 				}
             }],
             renderTo: Ext.getBody(),
