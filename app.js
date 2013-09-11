@@ -22,6 +22,11 @@ Ext.application({
 				handler: function() {
 							alert('You clicked the button 3');
 				}
+            },{
+            	text: 'Button 4 - enuvolawgm',
+				handler: function() {
+							alert('You clicked the button 4 - enuvolawgm');
+				}
             }],
             renderTo: Ext.getBody(),
         });
